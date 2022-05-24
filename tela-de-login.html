@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN NA REDE SIRIUS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgba(233, 168, 241, 0.774), rgb(44, 0, 163));
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;^
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+    <div>
+        <h1>Login Sirius</h1>
+        <label id="E-mail" for="E-mail" style="font-weight: bold;">E-mail:<label><br>
+        <input id="E-mail" type="text" name="E-mail">
+        <br><br>
+        <label id="senha" for="senha" style="font-weight: bold;">Senha:<label><br>
+        <input id="senha" type="password" name="senha" maxlength="11">
+        <br><br>
+        <button> <input type="submit" value="SALVAR" onclick="alert('salvando informações ...');"> </button>
+        <button> <input type="reset" value="LIMPAR"> </button>    
+    </div>
+</form>
+</body>
+</html>
